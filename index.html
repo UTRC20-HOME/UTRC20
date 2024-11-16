@@ -1,0 +1,141 @@
+<html><head><base href="/" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTRC20 Platform</title>
+    <style>
+        :root {
+            --primary-red: #ff3333;
+            --silver-gray: #e8e8e8;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, var(--silver-gray) 0%, #ffffff 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .nav-button {
+            background: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            color: var(--primary-red);
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255,51,51,0.2);
+        }
+
+        .nav-button::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent 0%, rgba(255,51,51,0.1) 100%);
+            top: 0;
+            left: -100%;
+            transition: 0.5s;
+        }
+
+        .nav-button:hover::after {
+            left: 0;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .animated-logo {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-button {
+                width: 80%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="logo-container">
+            <svg class="animated-logo" width="200" height="200" viewBox="0 0 200 200">
+                <circle cx="100" cy="100" r="90" fill="none" stroke="var(--primary-red)" stroke-width="4"/>
+                <text x="100" y="115" text-anchor="middle" fill="var(--primary-red)" font-size="40" font-weight="bold">UTRC20</text>
+            </svg>
+        </div>
+
+
+
+
+        <div class="nav-links">
+
+      <button class="nav-button" onclick="window.open('https://www.tronlink.org/', '_blank')">Tronlink</button>
+      <button class="nav-button" onclick="window.open('https://www.htx.com/invite/en-us/1f?invite_code=awhd9223', '_blank')">HTX</button>
+      <button class="nav-button" onclick="window.open('https://sunswap.com/#/home?lang=en-US&t0=T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb&t1=TXmP9gBMhyLv3T1AMBBDVU16DNF7keuWbm&type=add', '_blank')">Sunswap</button>
+      <button class="nav-button" onclick="window.open('https://sunpump.meme/invite?ref=tPbSl6lT', '_blank')">SunPump</button>
+      <button class="nav-button" onclick="window.open('https://tronscan.org/#/token20/TXmP9gBMhyLv3T1AMBBDVU16DNF7keuWbm', '_blank')">Tronscan</button>
+      <button class="nav-button" onclick="window.open('https://sun.io/#/scan/pairDetail?version=v2&pairAddress=THJgWEqWvrdKJDp8kMmmg52T8beGGnWoj8&token0Address=TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR&token1Address=TXmP9gBMhyLv3T1AMBBDVU16DNF7keuWbm', '_blank')">Liquidities</button>
+      <button class="nav-button" onclick="window.open('https://wait-list-mine.netlify.app/', '_blank')">Wait List Miners</button>
+      <button class="nav-button" onclick="window.open('https://traffmonetizer.com/?aff=778453', '_blank')">Bandwidth Miners</button>
+      <button class="nav-button" onclick="window.open('https://www.publish0x.com/start/investing-is-waiting-securely-xxvxkky?a=oQeZYYYRdp')">Earn while blogging</button>
+
+        </div>
+
+
+
+
+        <div class="footer">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dg4JRGa1jl4?si=YsfsbIm8d_Kexl0a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>UTRC20 Token - Building the Future of Decentralized Finance</p>
+
+
+        </div>
+    </div>
+
+</body></html>

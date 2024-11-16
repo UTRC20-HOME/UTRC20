@@ -1,0 +1,1 @@
+Your X-Miners funds will be available for release two years from the timestamp of this transaction, with UTRC20 tokens used as collateral.
